@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIGITAL PROJECT</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header" data-aos="fade-right" data-aos-duration="1000">
+      <div class="container">
+        <img src="./img/logo.svg" alt="Icon: logo" class="header__image" />
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Главная</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Галерея</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Проекты</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Сертификаты</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Контакты</a>
+            </li>
+          </ul>
+
+          <ul id="menu" class="header-nav__menu hidden">
+            <li class="header-nav__item menu__item">
+              <a href="#" class="header-nav__link menu__link">Главная</a>
+            </li>
+            <li class="header-nav__item menu__item">
+              <a href="#" class="header-nav__link menu__link">Галерея</a>
+            </li>
+            <li class="header-nav__item menu__item">
+              <a href="#" class="header-nav__link menu__link">Проекты</a>
+            </li>
+            <li class="header-nav__item menu__item">
+              <a href="#" class="header-nav__link menu__link">Сертификаты</a>
+            </li>
+            <li class="header-nav__item menu__item">
+              <a href="#" class="header-nav__link menu__link">Контакты</a>
+            </li>
+          </ul>
+
+          <button id="burger" class="header-nav__burger">
+            <span class="header-nav__line header-nav__line--top"></span>
+            <span class="header-nav__line header-nav__line--mid"></span>
+            <span class="header-nav__line header-nav__line--bottom"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="main-info">
+          <div class="main-info__name">
+            <h1 class="main-info__title">PROJECT</h1>
+            <h1 class="main-info__title">HOME</h1>
+          </div>
+          <div class="main-wrapper">
+            <div class="main-slider">
+              <button class="main-slider__button main-slider__button--prev">
+                <img
+                  src="./img/shape-left.svg"
+                  alt="Icon: shape-left"
+                  class="main-slider__arrow--left"
+                />
+              </button>
+              <button class="main-slider__button main-slider__button--next">
+                <img
+                  src="./img/shape-right.svg"
+                  alt="Icon: shape-right"
+                  class="main-slider__arrow--right"
+                />
+              </button>
+            </div>
+            <div class="main-slide">
+              <h4 class="main-slide__number">01</h4>
+              <img
+                src="./img/line.svg"
+                alt="Photo: line"
+                class="main-slide__line"
+              />
+              <h4 class="main-slide__number">02</h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="main-image"
+          data-aos="fade-up-left"
+          data-aos-duration="2000"
+        >
+          <img
+            src="./img/main-photo-1.svg"
+            alt="Photo: building"
+            class="main-image__photo"
+          />
+          <img
+            src="./img/main-photo-2.jpg"
+            alt="Photo: building"
+            class="main-image__photo"
+          />
+          <button class="main-image__button button">
+            <span class="main-image__button--text">ВЗГЛЯНУТЬ</span>
+            <img
+              src="./img/shape-right.svg"
+              alt="Icon: shape-right"
+              class="main-image__button--icon icon"
+            />
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <section class="company" data-aos="flip-down" data-aos-duration="1000">
+      <div class="container">
+        <div class="company-images">
+          <div class="company-image">
+            <img
+              src="./img/photo-1.svg"
+              alt="Photo: photo-1"
+              class="company-image__photo"
+            />
+            <img
+              src="./img/photo-2.svg"
+              alt="Photo: photo-2"
+              class="company-image__photo company-image__photo--bottom"
+            />
+          </div>
+          <img
+            src="./img/photo-3.svg"
+            alt="Photo: photo-3"
+            class="company-image__photo"
+          />
+        </div>
+        <div class="company-info">
+          <h1 class="company-info__title">О компании</h1>
+          <p class="company-info__describe">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button class="company-info__button button">
+            <span class="company-info__button--text">ЧИТАТЬ</span>
+            <img
+              src="./img/shape-right.svg"
+              alt="Icon: shape-right"
+              class="company-info__button--icon icon"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="tasks">
+      <div class="container">
+        <h1 class="tasks-title">Основные задачи</h1>
+        <div class="task">
+          <div class="task-info" data-aos="zoom-in-right">
+            <img
+              src="./img/number-1.svg"
+              class="task-info__number task-info__number--first"
+            />
+            <p class="task-info__text">
+              Создание комфортных условий и повышение качества обслуживания
+              клиентов
+            </p>
+          </div>
+          <div class="task-info" data-aos="zoom-in-left">
+            <img src="./img/number-2.svg" class="task-info__number" />
+            <p class="task-info__text">
+              Постоянно совершенствовать качество предоставляемых услуг путем
+              обучения персонала, закупки нового оборудования и усиленной
+              рекламы на рынке
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <h1 class="projects-title">Наши проекты</h1>
+        <div class="projects-grid">
+          <div
+            class="project-item"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+          >
+            <div class="project-image">
+              <img
+                src="./img/project-1.svg"
+                alt="Photo: project-1"
+                class="projects-grid__image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-info__text">ДОСУГОВЫЙ ЦЕНТР</h3>
+              <button class="project-info__button">
+                <span class="project-info__button--text">ПОДРОБНЕЕ</span>
+                <img
+                  src="./img/shape-right-white.svg"
+                  alt="Icon: shape-right"
+                  class="project-info__button--icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-aos="flip-down"
+            data-aos-duration="1500"
+          >
+            <div class="project-image">
+              <img
+                src="./img/project-2.svg"
+                alt="Photo: project-2"
+                class="projects-grid__image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-info__text">ДОСУГОВЫЙ ЦЕНТР</h3>
+              <button class="project-info__button">
+                <span class="project-info__button--text">ПОДРОБНЕЕ</span>
+                <img
+                  src="./img/shape-right-white.svg"
+                  alt="Icon: shape-right"
+                  class="project-info__button--icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-aos="flip-down"
+            data-aos-duration="2000"
+          >
+            <div class="project-image">
+              <img
+                src="./img/project-3.svg"
+                alt="Photo: project-3"
+                class="projects-grid__image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-info__text">ДОСУГОВЫЙ ЦЕНТР</h3>
+              <button class="project-info__button">
+                <span class="project-info__button--text">ПОДРОБНЕЕ</span>
+                <img
+                  src="./img/shape-right-white.svg"
+                  alt="Icon: shape-right"
+                  class="project-info__button--icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-aos="flip-down"
+            data-aos-duration="2500"
+          >
+            <div class="project-image">
+              <img
+                src="./img/project-4.svg"
+                alt="Photo: project-4"
+                class="projects-grid__image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-info__text">ДОСУГОВЫЙ ЦЕНТР</h3>
+              <button class="project-info__button">
+                <span class="project-info__button--text">ПОДРОБНЕЕ</span>
+                <img
+                  src="./img/shape-right-white.svg"
+                  alt="Icon: shape-right"
+                  class="project-info__button--icon"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-aos="flip-down"
+            data-aos-duration="3000"
+          >
+            <div class="project-image">
+              <img
+                src="./img/project-5.svg"
+                alt="Photo: project-5"
+                class="projects-grid__image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-info__text">ДОСУГОВЫЙ ЦЕНТР</h3>
+              <button class="project-info__button">
+                <span class="project-info__button--text">ПОДРОБНЕЕ</span>
+                <img
+                  src="./img/shape-right-white.svg"
+                  alt="Icon: shape-right"
+                  class="project-info__button--icon"
+                />
+              </button>
+            </div>
+          </div>
+          <button class="projects-grid__button button">
+            <span class="projects-grid__button--text">ВСЕ ПРОЕКТЫ</span>
+            <img
+              src="./img/shape-right-white.svg"
+              alt="Icon: shape-right"
+              class="projects-grid__button--icon icon"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="container">
+        <h1 class="contacts-title">Связаться с нами</h1>
+        <div
+          class="contacts-info"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <form class="contacts-form">
+            <div class="contacts-form__wrapper">
+              <div class="contacts-group">
+                <input
+                  type="text"
+                  class="contacts__input"
+                  placeholder="Имя"
+                  id="name"
+                  name="name"
+                />
+              </div>
+
+              <div class="contacts-group">
+                <input
+                  type="tel"
+                  class="contacts__input"
+                  placeholder="Номер телефона*"
+                  id="phone"
+                  name="phone"
+                  required
+                />
+              </div>
+
+              <div class="contacts-group">
+                <input
+                  type="email"
+                  class="contacts__input"
+                  placeholder="E-mail*"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+
+              <div class="contacts-group">
+                <input
+                  type="text"
+                  class="contacts__input"
+                  placeholder="Интересующий товар/услуга"
+                  id="item"
+                  name="item"
+                />
+              </div>
+
+              <textarea
+                cols="20"
+                rows="10"
+                class="contacts__message"
+                placeholder="Сообщение*"
+                id="message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <p class="contacts__describe">
+              Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+            </p>
+            <button class="button contacts__button button" type="submit">
+              <span class="contacts__button--text">ОТПРАВИТЬ</span>
+              <img
+                src="./img/shape-right-white.svg"
+                alt="Icon: shape-right"
+                class="contacts-describe__button--icon icon"
+              />
+            </button>
+          </form>
+          <div class="contacts-image">
+            <img
+              src="./img/contacts-photo.svg"
+              alt="Photo: contacts"
+              class="contacts-info__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container" data-aos="zoom-in-left" data-aos-duration="2000">
+        <img src="./img/logo-big.svg" alt="Icon: logo" class="footer-image" />
+        <div class="footer-info">
+          <h4 class="footer__title">Информация</h4>
+          <nav class="footer-nav">
+            <ul class="footer-nav__list">
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Главная</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Галерея</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Проекты</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Сертификаты</a>
+              </li>
+              <li class="footer-nav__item">
+                <a href="#" class="footer-nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-contacts">
+          <h4 class="footer__title">Контакты</h4>
+          <ul class="footer-contacts__list">
+            <li class="footer-contacts__item">
+              <a
+                href="https://www.google.com.ua/maps/"
+                class="footer-contacts__link footer-contacts__link--map"
+                target="_blank"
+              >
+                <img
+                  src="./img/map.svg"
+                  alt="Icon: map"
+                  class="footer-contacts__image"
+                />
+                <p class="footer-contacts__text footer-contacts__text--map">
+                  100000, Республика Казахстан, <br />
+                  г. Караганда, ул. Телевизионная 10
+                </p>
+              </a>
+            </li>
+            <li class="footer-contacts__item">
+              <a href="tel:+3800000000" class="footer-contacts__link">
+                <img
+                  src="./img/phone.svg"
+                  alt="Icon: phone"
+                  class="footer-contacts__image"
+                />
+                <p class="footer-contacts__text">+38 (000) 000 00 00</p>
+              </a>
+            </li>
+            <li class="footer-contacts__item">
+              <a href="mailto:mail@gmail.com" class="footer-contacts__link">
+                <img
+                  src="./img/email.svg"
+                  alt="Icon: email"
+                  class="footer-contacts__image"
+                />
+                <p class="footer-contacts__text">mail@gmail.com</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-network">
+          <h4 class="footer__title">Социальные сети</h4>
+          <div class="footer-social-network__list">
+            <a href="#" class="footer-social-network__link">
+              <img
+                src="./img/facebook.svg"
+                alt="Icon: facebook"
+                class="footer-social-network__image"
+              />
+            </a>
+            <a href="#" class="footer-social-network__link">
+              <img
+                src="./img/twitter.svg"
+                alt="Icon: twitter"
+                class="footer-social-network__image"
+              />
+            </a>
+            <a href="#" class="footer-social-network__link">
+              <img
+                src="./img/linkedIn.svg"
+                alt="Icon: linkedIn"
+                class="footer-social-network__image"
+              />
+            </a>
+            <a href="#" class="footer-social-network__link">
+              <img
+                src="./img/pininterest.svg"
+                alt="Icon: pininterest"
+                class="footer-social-network__image"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

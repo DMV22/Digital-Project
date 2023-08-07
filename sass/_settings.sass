@@ -1,0 +1,53 @@
+*
+  box-sizing: border-box
+
+body
+  font-family: "TT Hoves"
+  color: #333
+  background: #fff
+
+.container
+  max-width: 1170px
+  margin: auto
+
+section, footer
+  margin-top: 120px
+
+h1
+  color: #BDBDBD
+  font-size: 64px
+  font-weight: 300
+  line-height: 64px
+
+button
+  width: 222px
+  height: 71px
+  background: #FFF
+  border: none
+  cursor: pointer
+
+.button
+  position: relative
+  overflow: hidden
+  transition: background-color 0.3s ease
+
+span
+  font-size: 12px
+  font-weight: 400
+  line-height: 12px
+  letter-spacing: 2.4px
+  text-transform: uppercase
+
+.icon
+  position: absolute
+  top: 50%
+  left: 90%
+  transform: translate(-100%, -50%)
+  transition: left 0.3s ease
+
+.button:hover .icon
+  left: 120%
+
+.button:hover
+  background-color: #c4c4c4e7
+  color: #fff

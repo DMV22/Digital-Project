@@ -1,0 +1,48 @@
+.projects
+  &-grid
+    display: flex
+    flex-wrap: wrap
+    gap: 30px
+    margin-top: 60px
+
+    &__image
+      display: block
+
+    &__button
+      background: #333
+      color: #fff
+      margin-left: auto
+      justify-content: flex-end
+
+.project-item
+  position: relative
+  display: inline-block
+
+  &:hover .project-info
+    display: block
+
+.project-info
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  opacity: 0.8
+  background: #333
+  display: none
+
+  &__text
+    color: #FFF
+    font-style: normal
+    font-weight: 700
+    margin-bottom: 14px
+
+  &__button
+    height: auto
+    width: auto
+    background: inherit
+
+    &--text
+      color: #FFF
+      font-family: 'Gothic A1', sans-serif
+      margin-right: 12px

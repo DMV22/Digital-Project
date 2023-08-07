@@ -1,0 +1,87 @@
+.header
+  padding: 32px 0
+  & > .container
+    position: relative
+    display: flex
+    align-items: center
+
+  &__image
+    margin-right: 330px
+
+  &-nav
+    &__list
+      display: flex
+      gap: 60px
+      list-style: none
+
+    &__item
+      position: relative
+      font-size: 12px
+      font-weight: 400
+      line-height: 12px
+      letter-spacing: 2.4px
+      text-transform: uppercase
+      cursor: pointer
+
+    &__link
+      text-decoration: none
+      color: #333
+
+      &::before,
+      &::after
+        content: ''
+        position: absolute
+        left: 0
+        width: 0
+        height: 1px
+        background-color: #333
+        transition: all 0.3s
+
+      &::before
+        bottom: -5px
+      &::after
+        top: -5px
+
+    &__link:hover::before,
+    &__link:hover::after
+      width: 100%
+
+    &__burger
+      display: none
+      height: 20px
+      position: relative
+      width: 30px
+
+    &__line
+      display: flex
+      width: 30px
+      height: 1px
+      background: #333
+
+      &--top
+        position: absolute
+        left: 0
+        top: 0
+
+      &--mid
+        position: absolute
+        left: 0
+        top: 50%
+        transform: translate(0, -50%)
+
+      &--bottom
+        position: absolute
+        left: 0
+        bottom: 0
+
+.hidden
+  display: none
+
+.menu
+  &__item
+    text-align: center
+  &__item:not(:last-child)
+    margin-bottom: 32px
+  &__link
+    font-size: 20px
+    line-height: 20px

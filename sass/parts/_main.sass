@@ -1,0 +1,63 @@
+.main
+  & > .container
+    display: flex
+
+  &-info
+    display: flex
+    flex-direction: column
+    gap: 90px
+    margin-top: 336px
+    margin-right: 123px
+
+    &__title:last-child
+      color: #333
+      font-weight: 700
+
+  &-wrapper
+    display: flex
+    flex-direction: column
+    gap: 90px
+
+  &-slider
+    &__button
+      width: auto
+      padding: 18px 22.5px
+      border: 1px solid #F2F2F2
+      background: #FFF
+      cursor: pointer
+      &:hover
+        background: #F9F9F9
+
+    &__button:first-child
+      margin-right: 23px
+
+  &-slide
+    display: flex
+    gap: 32px
+
+    &__number
+      color: #BDBDBD
+      font-size: 24px
+      font-weight: 400
+      line-height: 24px
+
+      &.active
+        color: #333
+
+  &-image
+    position: relative
+    display: inline-block
+
+    &__photo
+      display: none
+      width: 779px
+      height: 839px
+      overflow: hidden
+
+      &.visible
+        display: block
+
+    &__button
+      position: absolute
+      left: 0
+      bottom: 0

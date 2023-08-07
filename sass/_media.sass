@@ -1,0 +1,366 @@
+@media screen and (max-width: 1200px)
+  .container
+    max-width: 920px
+
+  .header
+    &__image
+      margin-right: 250px
+    &-nav
+      &__list
+        gap: 30px
+
+  .main
+    & > .container
+      display: flex
+      flex-direction: column-reverse
+      align-items: center
+
+    &-info
+      flex-direction: row
+      justify-content: space-between
+      align-items: center
+      margin-top: 30px
+      margin-right: 0
+
+    &-wrapper
+      gap: 30px
+
+  .company
+    & > .container
+      flex-direction: column-reverse
+
+    &-images
+      justify-content: space-evenly
+      gap: 0
+    &-image
+      gap: 30px
+      &__photo--bottom
+        position: static
+
+  .tasks
+    margin-top: 120px
+
+  .task
+    justify-content: space-between
+    gap: 0
+
+  .projects
+    &-grid
+      justify-content: space-between
+      align-items: flex-end
+      gap: 10px
+
+  .project
+    &-image
+      width: 300px
+      height: 255px
+
+      & img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+  .contacts
+    &-image
+      height: 369px
+
+      & img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+  .footer
+    & > .container
+      justify-content: space-between
+    &-image, &-info, &-contacts
+      margin-right: 0
+    &-contacts
+      &__text
+        &--map
+          width: auto
+
+@media screen and (max-width: 992px)
+  .container
+    max-width: 724px
+
+  section, footer
+    margin-top: 90px
+
+  .main
+    & > .container
+      width: 90%
+    &-image
+      &__photo
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+  .header
+    & > .container
+      justify-content: space-between
+    &__image
+      margin-right: 0
+
+  .company
+    & > .container
+      padding: 30px
+
+  .tasks
+    margin-top: 90px
+
+  .task
+    flex-direction: column
+    gap: 30px
+    margin-top: 30px
+
+    &-info
+      &__number
+        &--first
+          margin-right: 37px
+
+  .projects
+    &-grid
+      justify-content: space-between
+      margin-top: 30px
+
+  .project
+    &-image
+      width: 350px
+
+  .contacts
+    &-form
+      &__wrapper
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        height: auto
+        gap: 10px
+
+    &-info
+      flex-direction: column-reverse
+    &-group
+      flex-basis: 49%
+
+  .footer
+    & > .container
+      flex-wrap: wrap
+      gap: 40px
+    &-social-network
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      gap: 40px
+      margin: auto
+
+@media screen and (max-width: 768px)
+  .container
+    max-width: 560px
+
+  h1
+    font-size: 48px
+
+  .header
+    &-nav
+      &__list
+        display: none
+
+      &__menu
+        position: absolute
+        top: 62px
+        right: 0
+        left: 0
+        background: #FBFBFB
+        z-index: 999
+        padding: 32px 0px
+        list-style: none
+
+      &__burger
+        display: block
+
+  .main
+    &-info
+      &__title
+        font-size: 48px
+
+  .company
+    &-image
+      gap: 10px
+      &__photo
+        width: 230px
+
+  .task
+    margin-top: 20px
+    &-info
+      &__text
+        font-size: 18px
+
+  .projects
+    &-grid
+      margin-top: 20px
+
+  .project
+    &-image
+      width: 270px
+
+  .footer
+    & > .container
+      flex-direction: column
+    &-social-network
+      flex-direction: column
+      gap: 0
+      margin: 0
+
+    &-contacts
+      &__text
+        &--map
+          height: auto
+
+@media screen and (max-width: 576px)
+  .container
+    max-width: 90%
+
+  section, footer
+    margin-top: 60px
+
+  h1
+    font-size: 48px
+    line-height: 1
+
+  button
+    width: 200px
+    height: 50px
+
+  .main
+    &-wrapper
+      gap: 20px
+
+    &-slider
+      &__button
+        height: auto
+        padding: 16px 20px
+    &-info
+      flex-direction: column
+      gap: 20px
+      margin-top: 20px
+      &__name
+        display: flex
+        gap: 20px
+      &__title
+        font-size: 32px
+
+  .company
+    & > .container
+      padding: 15px
+    &-images
+      flex-direction: column
+      gap: 10px
+    &-image
+      &__photo
+        width: auto
+        height: 250px
+        object-fit: cover
+    &-info
+      gap: 10px
+
+  .tasks
+    margin-top: 60px
+
+  .task
+    &-info
+      flex-direction: column
+      align-items: flex-start
+      gap: 15px
+      &__number
+        width: 70px
+        &--first
+          width: 50px
+          margin-right: 20px
+      &__text
+        font-size: 16px
+        line-height: 24px
+      &__describe
+        font-size: 14px
+
+  .projects
+    &-grid
+      justify-content: center
+      gap: 10px
+      &__button
+        margin: 0
+
+  .project
+    &-image
+      width: 300px
+
+  .contacts
+    &-form
+      gap: 10px
+      &__wrapper
+        flex-direction: column
+
+  .footer
+    & > .container
+      gap: 30px
+
+    &__title
+      margin-bottom: 15px
+
+    &-nav
+      &__list
+        gap: 10px
+
+    &-contacts
+      &__list
+        gap: 10px
+
+    &-social-network
+      &__list
+        gap: 20px
+
+@media screen and (max-width: 320px)
+  .container
+    max-width: 90%
+
+  section, footer
+    margin-top: 30px
+
+  h1
+    font-size: 28px
+
+  button
+    width: 180px
+
+  .menu
+    &__item:not(:last-child)
+      margin-bottom: 20px
+
+    &__link
+      font-size: 16px
+      line-height: 16px
+
+  .main
+    &-wrapper
+      gap: 20px
+    &-slider
+      &__button
+        padding: 12px 16px
+    &-slide
+      &__number
+        font-size: 20px
+      &__line
+        width: 24px
+        height: 24px
+    &-info
+      &__name
+        gap: 10px
+
+  .tasks
+    margin-top: 30px
+
+  .project
+    &-image
+      width: 240px
+
+  .contacts
+    &-image
+      height: 250px
